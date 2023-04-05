@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  background: url("https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+.clock {
+  display: flex;
+}
+
+.clock div {
+  margin: 5px;
+}
+
+.clock span {
+  width: 100px;
+  height: 80px;
+  background: gray;
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.clock #text{
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: darkgrey;
+  opacity: 0.8;
+}
+
+.clock #ampm {
+  bottom: 0;
+
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  background: black;
+}
